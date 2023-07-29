@@ -425,3 +425,63 @@
   }
   
   /*footer end*/
+
+
+
+  /* banersectio */
+
+   /* Custom CSS for the banner */
+   .banner {
+    background-image: url('images/WhatsApp\ Image\ 2023-07-28\ at\ 6.43.18\ PM.jpeg');
+    background-size: cover;
+    background-position: center;
+ height: 100vh; /* Set the desired minimum height for the banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Set text color to white or your preferred color */
+  }
+
+  /* Optional: Adjust the button style */
+  .btn {
+    background-color: #686157;
+    color: #fff;
+   
+  }
+  
+
+
+
+@media screen and (min-width: 0px) {
+.banner {
+  height: 50vh;
+}
+
+}
+@media screen and (min-width: 576px) {
+.banner {
+  height: 60vh;
+}
+
+}
+@media screen and (min-width: 576px) {
+.banner {
+  height: 70vh;
+}
+}
+@media screen and (min-width: 768px) {
+.banner {
+  height: 80vh;
+}
+}
+
+@media screen and (min-width: 992px) {
+.banner {
+  height: 100vh;
+}
+}
+
+.textdiv{
+text-align: end;
+width: 75%;
+}
